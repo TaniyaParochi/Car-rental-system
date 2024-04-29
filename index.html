@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Add background image */
+    background-image: url('fp_bg.jpg');
+    /* Set background image to cover the entire viewport */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Make sure text is readable on top of the background image */
+    color: white;
+    /* Prevent background image from repeating */
+    background-repeat: no-repeat;
+    /* Ensure background image is fixed */
+    background-attachment: fixed;
+}
+
         .navbar {
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color to navbar */
             overflow: hidden;
         }
         .navbar a {

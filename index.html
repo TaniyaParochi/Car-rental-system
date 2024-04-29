@@ -8,6 +8,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental System</title>
     <style>
+        /* < --------------------Buttons----------------------------->*/
+
+        button {
+            padding: 20px 40px;
+            font-size: 16px;
+            margin-top: 350px;
+            margin-left: 150px;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Button Styles */
+
+        .Vendors {
+            background-color: #3daaf3;
+            color: #fff;
+        }
+
+        .Customers {
+            background-color: #3bda7d;
+            color: #fff;
+        }
+
+        /* Hover Styles */
+        button:hover {
+            background-color: #616161;
+        }
+
+
+
         /* Navbar Styles */
         /*-----------------------------------------#####-----------------------------------------*/
         body {
@@ -106,7 +138,7 @@
             height: auto;
             position: absolute;
             top: 50%;
-            left: 50%;
+            left: 1000px;
             transform: translate(-50%, -50%);
         }
 
@@ -131,6 +163,12 @@
         <a href="#">Manage Booking</a>
         <a href="#">About Us</a>
     </div>
+
+    <!-- --------------Button ----- -->
+
+    <button class="Vendors">Vendors </button>
+    <button class="Customers">Customers</button>
+
 
     <!-- Car image -->
     <img src="car.png" alt="Car" class="car-image">

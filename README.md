@@ -13,8 +13,8 @@
 
 ## Contributing
 
-Taniya Parochi
-Tasu
+- Taniya Parochi
+- Tasu
 
 ## Credits
 
